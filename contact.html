@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Metadata about the document -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+</head>
+<body background="Photos_SRC/DSC_2526.JPG">
+    <!-- Header section with the main title -->
+    <header>
+        <h1>Winston Har</h1>
+    </header>
+    <!-- Navigation menu -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="climbing.html">Climbing</a></li>
+        </ul>
+    </nav>
+    <!-- Main content area -->
+    <main>
+        <!-- Section for contact form -->
+        <section class = "floating-box">
+            <h2>Get in Touch</h2>
+            <form action="mailto:winston.har@du.edu" method="POST" enctype="text/plain">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" placeholder="Your Name" required><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="Your Email" required><br><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea><br><br>
+                <input type="submit" value="Send">
+            </form>
+        </section>
+        <!-- Section for alternate contact methods -->
+        <br>
+        <section class = "floating-box">
+            <h2>Alternate Contact</h2>
+            <p>If you'd prefer, you can reach me directly via email or LinkedIn:</p>
+            <ul>
+                <li>Email: <a href="mailto:winston.har@du.edu">winston.har@du.edu</a></li>
+                <li>LinkedIn: <a href="https://linkedin.com/in/winstonhar" target="_blank">linkedin.com/in/winstonhar</a></li>
+            </ul>
+        </section>
+    </main>
+    <!-- Footer section -->
+    <footer>
+        <p>&copy; 2025 My Portfolio</p>
+    </footer>
+</body>
+</html>
